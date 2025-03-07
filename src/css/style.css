@@ -1,0 +1,128 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    
+
+}
+.container {
+     /* max-width: 1140px; */
+    display: grid;
+    grid-gap: 40px;
+    grid:
+    "card-7 card-1 card-1 card-4"
+    "card-7 card-2 card-3 card-4"
+    "card-8 card-2 card-3 card-4"
+    "card-8 card-6 card-5 card-5"
+    / 500px auto auto 500px;
+
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-1{
+    grid-area: card-1;
+    background-color: var(--third-3);
+    padding: 10rem ;
+    color: var(--third-1);
+    max-width: 1090px;
+}
+
+.card-1 h2 {
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.card-1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+.card-1 p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.card-2{
+    grid-area: card-2;
+    background-color: var(--third-1);
+}
+
+.card-3{
+    grid-area: card-3;
+    background-color: var(--second-500);
+}
+
+.card-4{
+    grid-area: card-4;
+    background-color: var(--primary-100);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-4 img{
+    position: absolute;
+}
+
+.card-5{
+    grid-area: card-5;
+    background-color: var(--primary-500);
+}
+
+.card-6{
+    grid-area: card-6;
+    background-color: var(--third-1);
+}
+
+.card-7{
+    grid-area: card-7;
+    background-color: var(--second-100);
+    padding: 15rem 5rem;
+
+}
+
+.card-7 h2{
+    font-size: 8rem;
+    line-height: 6rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.card-7 h2 span{
+    color: var(--primary-500);
+}
+.card-7 img{
+    height: 15rem;
+}
+
+.card-8{
+    grid-area: card-8;
+    background-color: var(--second-500);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem 5rem;
+}
+
+.card-8 h2{
+    font-size: 8rem;
+    line-height: 6rem;
+    font-weight: 400;
+    margin-bottom: 10rem;
+}
+
+.card-8 img{
+    width: 42rem;
+}
