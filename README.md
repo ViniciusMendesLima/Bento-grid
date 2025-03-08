@@ -11,20 +11,21 @@ Esta é uma solução para o [Frontend Mentor - Bento grid](https://www.frontend
 - CSS
 - CSS Grid
 
-
 ### O que eu aprendi
 Organização de elementos utilizando o Grid
 
 ### Dificuldades
-#### Fazer com que imagem não trasborde div.
-- Solução: acrecentar overflow: hidden; na div pai
+Fazer com que imagem não trasborde div.
 
-#### Acrecentar margem na parte inferior do container quando muda para telas menores
+- Solução: acrescentar overflow: hidden; na div pai
+
+#### Acrescentar margem na parte inferior do conteiner quando muda para telas menores
+
 - Solução: remover max-height do container no responsivo.css
 
 #### Ter feito projeto sem ter percebido que zoom da tela estava em 50% 
-- Solução: ajustar todas as aplicações de tamanho diminuido pela metade.
 
+- Solução: ajustar todas as aplicações de tamanho diminuído pela metade.
 
 ## Autor
 

@@ -3,7 +3,7 @@
         align-items: first baseline;
         height: 90vh;
     }
-    .container{
+    .conteiner{
         max-height: none;
         grid:
         "card-1"

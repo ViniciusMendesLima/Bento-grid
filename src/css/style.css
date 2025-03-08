@@ -11,7 +11,7 @@ body{
     
 
 }
-.container {
+.conteiner {
     max-height: 620px;
     display: grid;
     grid-gap: 20px;
